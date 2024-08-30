@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> WITS Institute </title>
+	<style>
+		*{
+			margin: 0px;
+			padding: 0px;
+			box-sizing: border-box;
+		}
+		.header {
+			display: flex;
+			align-items: center;
+			background-color: aqua;
+			width: 100%;
+			height: 80px;
+			justify-content: space-between;
+		}
+
+		.logo-container {
+			display: flex;
+			align-items: center;
+			padding-left: 4px;
+			padding-right: 4px;
+		}
+
+		.logo {
+			width: 70px;
+			height: 70px;
+			border-radius: 35px;
+			/* Kisi ko bhi circle shape dene ke liye */
+		}
+
+		ul {
+			width: 800px;
+			display: flex;
+			/* background-color: red; */
+			justify-content: space-evenly;
+		}
+
+		li {
+			color: black;
+			list-style: none;
+			font-size: 1.7rem;
+		}
+
+		a {
+			text-decoration: none;
+			/* Iska prayog hyperlink ki neeche waali line ko hatane me kiya jaata hai  */
+		}
+		.section-1{
+			background-image: url(./section-1-bg.jpg);
+			height: 500px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		h1{
+			font-size: 72px;
+			text-align: center;
+			color: whitesmoke;
+		}
+		.sectio-2{
+			display: flex;
+		}
+		.card-container{
+			background-color: red;
+			width: 100px;
+			height: 100px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="header">
+		<div class="logo-container">
+			<img class="logo" src="wits_logo.jpg" alt="WITS Logo">
+			<h2> WITS Institute </h2>
+		</div>
+		<div class="navbar">
+			<ul>
+				<a href="/home">
+					<li> Home </li>
+				</a>
+				<a href="#">
+					<li> About </li>
+				</a>
+				<a href="#">
+					<li> Courses Offered </li>
+				</a>
+				<a href="#">
+					<li> Admissions </li>
+				</a>
+				<a href="#">
+					<li> Contact </li>
+				</a>
+			</ul>
+		</div>
+	</div>
+	<section class="section-1">
+		<h1> Welcome to WITS Institute </h1>
+	</section>
+	<section class="section-2">
+		<div>
+		<h2>Trending Courses</h2> </div>
+		<div class="card-container">
+
+		</div>
+	</section>
+</body>
+
+</html>
