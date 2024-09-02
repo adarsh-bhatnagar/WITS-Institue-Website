@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | WITS Institute</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            background-color: aqua;
+            width: 100%;
+            height: 80px;
+            justify-content: space-between;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+
+        .logo {
+            width: 70px;
+            height: 70px;
+            border-radius: 35px;
+            /* Kisi ko bhi circle shape dene ke liye */
+        }
+
+        ul {
+            width: 800px;
+            display: flex;
+            /* background-color: red; */
+            justify-content: space-evenly;
+        }
+
+        li {
+            color: black;
+            list-style: none;
+            font-size: 1.7rem;
+        }
+
+        a {
+            text-decoration: none;
+            /* Iska prayog hyperlink ki neeche waali line ko hatane me kiya jaata hai  */
+        }
+
+        .footer {
+            background-color: rgb(29, 27, 27);
+            width: 100%;
+            color: white;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: larger;
+        }
+
+        .card-container {
+            display: flex;
+            /* background-color: rgb(235, 116, 116); */
+            width: 100%;
+            padding-top: 10px;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 300px;
+            height: 300px;
+            /* border: 2px solid black; */
+            border-radius: 50px;
+
+        }
+
+        #card-1 {
+            background-image: url(./card-1-data-engineering.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        #card-2 {
+            background-image: url(./card-2-emt.png);
+            background-size: contain;
+        }
+
+        #card-3 {
+            background-image: url(./card-3-o-level.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .section-about{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+		<div class="logo-container">
+			<img class="logo" src="wits_logo.jpg" alt="WITS Logo">
+			<h2> WITS Institute </h2>
+		</div>
+		<div class="navbar">
+			<ul>
+				<a href="C:\Users\dell\Desktop\HTML TUTORIAL\CSS Tutorial\WITS Institue Website\home.html">
+					<li> Home </li>
+				</a>
+				<a href="C:\Users\dell\Desktop\HTML TUTORIAL\CSS Tutorial\WITS Institue Website\about.html">
+					<li> About </li>
+				</a>
+				<a href="C:\Users\dell\Desktop\HTML TUTORIAL\CSS Tutorial\WITS Institue Website\courses_offered.html">
+					<li> Courses Offered </li>
+				</a>
+				<a href="#">
+					<li> Admissions </li>
+				</a>
+				<a href="C:\Users\dell\Desktop\HTML TUTORIAL\CSS Tutorial\WITS Institue Website\contact.html">
+					<li> Contact </li>
+				</a>
+			</ul>
+		</div>
+	</div>
+    <section>
+        <div class="card-container">
+            <div id="card-1" class="card"></div> <!-- Div ek block element hota hai-->
+            <div id="card-2" class="card"></div>
+            <div id="card-3" class="card"></div>
+        </div>
+    </section>
+    <section class="section-about">
+      <div> <h1> About WITS Institute </h1> </div> 
+        <p style="font-size: 1.3rem;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro aut praesentium est magni, pariatur quaerat.
+            Enim atque exercitationem ea ad doloremque iure culpa tenetur nulla nisi amet labore quia autem deserunt,
+            eligendi animi voluptas quasi quos sint nesciunt dicta soluta commodi rerum tempore voluptate. Sunt nam quas
+            eos incidunt culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, magnam! Voluptatibus dolor
+            nobis cupiditate sunt, corrupti odio veritatis excepturi amet, repellendus tenetur fugit enim quam deserunt
+            culpa fugiat hic nisi? Dolores ipsum sunt excepturi modi accusantium eaque quibusdam, pariatur tempore
+            quidem iste amet provident placeat quasi quos quaerat porro rem vel inventore. Ipsum, fuga nesciunt.
+            Blanditiis labore in et veniam quos fugiat dicta amet, ea, mollitia dolorem minima quod voluptatibus, eius
+            fugit quasi rerum nobis sapiente ex id numquam maiores nemo sit ab vel? Voluptatum praesentium enim commodi
+            rerum ducimus?</p>
+    </section>
+    <div class="footer">
+        Copyright &copy | All Rights Reserved | WITS Institute
+    </div>
+</body>
+
+</html>
